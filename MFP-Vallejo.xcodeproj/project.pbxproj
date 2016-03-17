@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32305A891C9990C600396DA9 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32305A881C9990C600396DA9 /* PagedScrollViewController.swift */; };
+		32D017EB1C99EA6800A9267E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D017EA1C99EA6800A9267E /* AboutViewController.swift */; };
+		32E9F3921C989A6A00447849 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9F3911C989A6A00447849 /* CustomButton.swift */; };
 		32EAB1FC1C975050000C9FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAB1FB1C975050000C9FA8 /* AppDelegate.swift */; };
 		32EAB1FE1C975050000C9FA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAB1FD1C975050000C9FA8 /* ViewController.swift */; };
 		32EAB2011C975050000C9FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EAB1FF1C975050000C9FA8 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32305A881C9990C600396DA9 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
+		32D017EA1C99EA6800A9267E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		32E9F3911C989A6A00447849 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		32EAB1F81C975050000C9FA8 /* MFP-Vallejo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFP-Vallejo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EAB1FB1C975050000C9FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EAB1FD1C975050000C9FA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +60,41 @@
 		32EAB1FA1C975050000C9FA8 /* MFP-Vallejo */ = {
 			isa = PBXGroup;
 			children = (
-				32EAB1FB1C975050000C9FA8 /* AppDelegate.swift */,
-				32EAB1FD1C975050000C9FA8 /* ViewController.swift */,
-				32EAB1FF1C975050000C9FA8 /* Main.storyboard */,
+				32EAB20F1C97506B000C9FA8 /* Controller */,
+				32EAB20E1C975064000C9FA8 /* View */,
+				32EAB20D1C97505C000C9FA8 /* Model */,
 				32EAB2021C975050000C9FA8 /* Assets.xcassets */,
-				32EAB2041C975050000C9FA8 /* LaunchScreen.storyboard */,
 				32EAB2071C975050000C9FA8 /* Info.plist */,
 			);
 			path = "MFP-Vallejo";
+			sourceTree = "<group>";
+		};
+		32EAB20D1C97505C000C9FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32EAB20E1C975064000C9FA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32EAB2041C975050000C9FA8 /* LaunchScreen.storyboard */,
+				32EAB1FF1C975050000C9FA8 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		32EAB20F1C97506B000C9FA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32D017EA1C99EA6800A9267E /* AboutViewController.swift */,
+				32EAB1FB1C975050000C9FA8 /* AppDelegate.swift */,
+				32E9F3911C989A6A00447849 /* CustomButton.swift */,
+				32305A881C9990C600396DA9 /* PagedScrollViewController.swift */,
+				32EAB1FD1C975050000C9FA8 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EAB1FE1C975050000C9FA8 /* ViewController.swift in Sources */,
+				32305A891C9990C600396DA9 /* PagedScrollViewController.swift in Sources */,
 				32EAB1FC1C975050000C9FA8 /* AppDelegate.swift in Sources */,
+				32D017EB1C99EA6800A9267E /* AboutViewController.swift in Sources */,
+				32E9F3921C989A6A00447849 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +322,7 @@
 				32EAB20C1C975050000C9FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
